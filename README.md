@@ -24,7 +24,7 @@ This repo includes a Makefile that allows you to locally compile and run all the
 Priority queues can be a very useful tool in making various programs, and especially so in creating scheduling algorithms. They work just like queues, but instead of adding in new elements at the end elements are added with some value attached to them, and enter the queue such that it is sorted by the values of its elements. This means we can do things like create priority queues that prioritize certain elements, and push back other kinds of elements. As an example, please look at the code below:
 
 bird.cpp
-'''
+```
 #include <iostream>
 #include <queue>
 
@@ -73,7 +73,7 @@ int main() {
 
 	return 0;
 }
-'''
+```
 
 The code above creates two priority queues, called numbers and birds. Each sorts from high to low its metric – for numbers, the element itself, and for Birds their size. As can be seen, it is significantly more difficult to sort a priority queue based on a struct than a primitive data type. There are also methods that can be done to create priority queues using classes – it is encouraged to look these up as they might be useful, but not required.
 
