@@ -6,6 +6,8 @@ This lab is designed to cover different types of scheduling used in operating sy
 
 Please submit your answers to this lab on Gradescope in the assignment marked “Lab #4’. All answers are due by the time specified on Gradescope. The TA present in your lab will do a brief explanation of the various parts of this lab, but you are expected to answer all questions by yourself. Please raise your hand if you have any questions during the lab section – TAs will be notified you are asking a question. Questions and Parts have a number of points marked next to them to signify their weight in this lab’s final grade. Labs are weighted equally, regardless of their total points.
 
+All code compiled and run in these labs should be done on Edlab, otherwise results may not be consistent with the answer key.
+
 Once you have logged in to Edlab, you can clone this repo using
 
 ```bash
