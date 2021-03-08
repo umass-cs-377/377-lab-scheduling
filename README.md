@@ -95,8 +95,3 @@ Shoppers are still complaining that they have to wait too long in line, and the 
 Finally, the manager has had enough. Customers keep complaining, and they have no idea how to stop it. For their final act, they implement the RR policy, which dictates that customers be partial checked out one after enough, looping through the line over and over again until everyone is checked out. This policy means that shoppers will all receive attention one at a time, but may take a while to finish if there are many customers in line.
 
 However, Round Robin requires that processes be attended to for a while before moving onto the next one – otherwise, the cost of switching between processes becomes large enough that it fails to save any time at all. Additionally, while processes all get attention from the CPU relatively soon, it is terrible in turnaround time, since it must slowly iterate through all of the processes until it finishes.
-
-## Part 6: Putting It Together (3 Points):
-The manager has quit and you are now the manager. You’re going back through their notes on policies, and want to find out which scheduling algorithm is most efficient for your store. You get data from over one hour, of the following grocers and the time at which they arrive at the store. The list is structures in pairs (x, y) where x = the time for the grocer to be checked out, and y is the time that the grocer arrives at the checkout lane. Please submit a graph of turnaround time and response time for each of the methods FIFO, SJF, STCF, and RR for each of the 5 customers.
-
-A: (6, 0), B: (4, 2), C: (2, 7), D: (20, 1), E: (5, 10)
