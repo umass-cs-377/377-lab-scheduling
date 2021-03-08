@@ -1,4 +1,5 @@
-# COMPSCI 377 LAB #4: Scheduling
+# COMPSCI 377
+# Scheduling Lab
 
 ## Purpose
 
